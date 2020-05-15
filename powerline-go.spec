@@ -1,6 +1,6 @@
 # https://github.com/justjanne/powerline-go
 %global goipath         github.com/justjanne/powerline-go
-Version:                1.15.0
+Version:                1.17.0
 
 %gometa
 
@@ -15,7 +15,7 @@ A Powerline like prompt for Bash, ZSH and Fish.
  - It's easy to customize and extend.}
 
 Name:           powerline-go
-Release:        2%{?dist}
+Release:        1%{?dist}
 Summary:        A beautiful and useful low-latency prompt for your shell, written in go
 
 License:        GPLv3
@@ -50,6 +50,9 @@ install -m 0755 -vp %{gobuilddir}/bin/* %{buildroot}%{_bindir}/
 %{_bindir}/*
 
 %changelog
+* Fri May 15 2020 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 1.17.0-1
+- Release 1.17.0
+
 * Thu Jan 30 2020 Fedora Release Engineering <releng@fedoraproject.org> - 1.15.0-2
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_32_Mass_Rebuild
 
