@@ -1,6 +1,6 @@
 # https://github.com/justjanne/powerline-go
 %global goipath         github.com/justjanne/powerline-go
-Version:                1.17.0
+Version:                1.18.0
 
 %gometa
 
@@ -50,6 +50,9 @@ install -m 0755 -vp %{gobuilddir}/bin/* %{buildroot}%{_bindir}/
 %{_bindir}/*
 
 %changelog
+* Fri Oct 07 2020 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 1.18.0-1
+- Release 1.18.0
+
 * Fri May 15 2020 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 1.17.0-1
 - Release 1.17.0
 
