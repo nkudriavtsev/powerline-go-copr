@@ -1,6 +1,6 @@
 # https://github.com/justjanne/powerline-go
 %global goipath         github.com/justjanne/powerline-go
-Version:                1.20.0
+Version:                1.21.0
 
 %gometa
 
@@ -50,6 +50,9 @@ install -m 0755 -vp %{gobuilddir}/bin/* %{buildroot}%{_bindir}/
 %{_bindir}/*
 
 %changelog
+* Sat Feb 20 2021 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 1.21.0-1
+- Release 1.21.0
+
 * Wed Jan 06 2021 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 1.20.0-1
 - Release 1.20.0
 
